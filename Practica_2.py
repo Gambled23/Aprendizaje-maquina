@@ -4,7 +4,7 @@ numeroBoletos = int(input("Por favor ingresa el numero de boletos que deseas com
 horaFuncion = int(input("Por favor ingresa la hora de la funcion (formato 24 horas): "))
 
 
-total = precioBoleto * int(numeroBoletos)
+total = precioBoleto * numeroBoletos
 # obtener hora funcion
 if edad < 18:
     promoEdad = True
