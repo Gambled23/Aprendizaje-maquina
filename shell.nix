@@ -10,6 +10,7 @@ in pkgs.mkShell rec {
     pythonPackages.venvShellHook
     pythonPackages.pip
     pythonPackages.numpy
+    jupyter
   ];
 
   # Run this command, only after creating the virtual environment
