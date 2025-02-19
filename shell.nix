@@ -10,6 +10,9 @@ in pkgs.mkShell rec {
     pythonPackages.venvShellHook
     pythonPackages.pip
     pythonPackages.numpy
+    pythonPackages.pandas
+    pythonPackages.matplotlib
+    pythonPackages.scikit-learn
     jupyter
   ];
 
