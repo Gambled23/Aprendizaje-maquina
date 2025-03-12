@@ -43,7 +43,7 @@ NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
 NIX_HARDENING_ENABLE='bindnow format fortify fortify3 pic relro stackprotector strictoverflow zerocallusedregs'
 export NIX_HARDENING_ENABLE
-NIX_LDFLAGS='-rpath /home/gambled/Codes/Aprendizaje-maquina/outputs/out/lib  -L/nix/store/0l539chjmcq5kdd43j6dgdjky4sjl7hl-python3-3.12.8/lib -L/nix/store/js3d8wlzy9lpigxlwn234fzghpn5d0ps-python3-3.12.8-env/lib -L/nix/store/0l539chjmcq5kdd43j6dgdjky4sjl7hl-python3-3.12.8/lib -L/nix/store/js3d8wlzy9lpigxlwn234fzghpn5d0ps-python3-3.12.8-env/lib'
+NIX_LDFLAGS='-rpath /home/gambled/Codes/Aprendizaje-Maquina/outputs/out/lib  -L/nix/store/0l539chjmcq5kdd43j6dgdjky4sjl7hl-python3-3.12.8/lib -L/nix/store/js3d8wlzy9lpigxlwn234fzghpn5d0ps-python3-3.12.8-env/lib -L/nix/store/0l539chjmcq5kdd43j6dgdjky4sjl7hl-python3-3.12.8/lib -L/nix/store/js3d8wlzy9lpigxlwn234fzghpn5d0ps-python3-3.12.8-env/lib'
 export NIX_LDFLAGS
 NIX_NO_SELF_RPATH='1'
 NIX_STORE='/nix/store'
@@ -147,7 +147,7 @@ name='impurePythonEnv-env'
 export name
 nativeBuildInputs=''
 export nativeBuildInputs
-out='/home/gambled/Codes/Aprendizaje-maquina/outputs/out'
+out='/home/gambled/Codes/Aprendizaje-Maquina/outputs/out'
 export out
 outputBin='out'
 outputDev='out'
@@ -186,7 +186,7 @@ preConfigurePhases=' updateAutotoolsGnuConfigScriptsPhase'
 declare -a preFixupHooks=('_moveToShare' '_multioutDocs' '_multioutDevs' )
 preferLocalBuild='1'
 export preferLocalBuild
-prefix='/home/gambled/Codes/Aprendizaje-maquina/outputs/out'
+prefix='/home/gambled/Codes/Aprendizaje-Maquina/outputs/out'
 declare -a propagatedBuildDepFiles=('propagated-build-build-deps' 'propagated-native-build-inputs' 'propagated-build-target-deps' )
 propagatedBuildInputs=''
 export propagatedBuildInputs

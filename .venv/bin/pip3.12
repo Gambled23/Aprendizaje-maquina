@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/home/gambled/Codes/Aprendizaje maquina/.venv/bin/python3.12" "$0" "$@"
-' '''
+#!/home/gambled/Codes/Aprendizaje-Maquina/.venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
