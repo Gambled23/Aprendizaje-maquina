@@ -13,6 +13,7 @@ in pkgs.mkShell rec {
     pythonPackages.pandas
     pythonPackages.matplotlib
     pythonPackages.scikit-learn
+    pythonPackages.seaborn
     jupyter
   ];
 
