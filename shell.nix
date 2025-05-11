@@ -14,6 +14,7 @@ in pkgs.mkShell rec {
     pythonPackages.matplotlib
     pythonPackages.scikit-learn
     pythonPackages.seaborn
+    pythonPackages.tensorflow
     jupyter
   ];
 
